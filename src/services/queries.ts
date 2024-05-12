@@ -1,4 +1,6 @@
-export const getAllBlogs = `
+import { groq } from "next-sanity";
+
+export const getAllBlogs = groq`
 *[_type == "blog"]| order(_createdAt desc)  {
   title,
   description,
@@ -7,7 +9,7 @@ export const getAllBlogs = `
 }
 `;
 
-export const getBlogBySlug = `
+export const getBlogBySlug = groq`
 *[_type == "blog" && slug.current ==  $slug]{
   title,
   content,
