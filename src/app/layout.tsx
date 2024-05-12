@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "@/components/providers/theme-provider";
 
 import "@/styles/globals.css";
 import { Navbar } from "@/components/shared";
+import { ThemeProvider } from "@/components/providers/theme-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +29,7 @@ export default function RootLayout({
         >
           <Navbar />
 
-          {children}
+          <main className="w-3/4 mx-auto px-10">{children}</main>
         </ThemeProvider>
       </body>
     </html>
