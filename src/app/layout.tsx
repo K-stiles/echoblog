@@ -5,6 +5,8 @@ import "@/styles/globals.css";
 import { Navbar } from "@/components/shared";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 
+export const revalidate = 30; // revalidates the page every 30 seconds
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

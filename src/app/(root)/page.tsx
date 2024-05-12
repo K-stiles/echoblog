@@ -5,6 +5,8 @@ import { getBlogs } from "@/services/sanity";
 import Image from "next/image";
 import Link from "next/link";
 
+export const revalidate = 30; // revalidates the page every 30 seconds
+
 export default async function Home() {
   const blogs: PartialBlog[] = await getBlogs();
 
