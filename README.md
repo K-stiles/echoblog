@@ -1,14 +1,14 @@
-# Echo Journal
+# 📖 Echo Journal
 
 Echo Journal is a simple blog app built with Next.js, Tailwind CSS, and Sanity CMS.
 
-## Features
+## 🪂 Features
 
 - **Next.js**: Utilizes the power of Next.js for server-side rendering, routing, and more.
 - **Tailwind CSS**: Uses Tailwind CSS for rapid UI development with utility-first CSS.
 - **Sanity CMS**: Content management system for managing blog posts and content.
 
-## Setup
+## ⚖️ Setup
 
 ### Prerequisites
 
@@ -47,7 +47,7 @@ pnpm install
 
    Replace `your_project_id` and `your_dataset_name` with your actual Sanity project ID and dataset name.
 
-### Development
+### 🧑🏽‍🚒 Development
 
 Run the development server:
 
@@ -59,7 +59,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-## Deployment
+## 🚀 Deployment
 
 Deploy your Next.js app using your preferred hosting platform. Make sure to set up environment variables for production as well.
 
