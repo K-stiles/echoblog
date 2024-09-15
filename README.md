@@ -1,12 +1,12 @@
-# 📖 Echo Journal
+# 📖 Echo Blog
 
-Echo Journal is a simple blog app built with Next.js, Tailwind CSS, and Sanity CMS.
+Echo Blog is a simple blog app built with Next.js, Tailwind CSS, and Sanity CMS.
 
 ## 🪂 Features
 
 - **Next.js**: Utilizes the power of Next.js for server-side rendering, routing, and more.
 - **Tailwind CSS**: Uses Tailwind CSS for rapid UI development with utility-first CSS.
-- **Sanity CMS**: Content management system for managing blog posts and content.
+- **Sanity CMS**: A content management system for managing blog posts and content.
 
 ## ⚖️ Setup
 
